@@ -1,6 +1,14 @@
 # esp8266-BeerMaker
 ESP8266 (Wemos D1) with Bielmeier or other kind of boiler/mash tun that uses SSR relay
 
+Set kettle temp via webpage.
+
+Usage:
+Connect to SSID "BeerMaker" with pw: "mead1234"
+Open browser to 192.168.4.1
+Input your desired temp and push "submit"
+The esp will then hold your selected temperature.
+
 What you need:
 1 x Wemos D1 or other ESP8266
 1 x 100kOhm NTC (analog temp)
